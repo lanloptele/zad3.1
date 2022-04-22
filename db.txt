@@ -1,14 +1,2 @@
-Krzysztof 20
-Janusz 40
-Krzysztof 20
-Janusz 40
-Sebek 16
-Seba 12
-seba 22
-seba 22
-kamil 33
-seba null12
-kamil 22
-kamil 12
-seb 22
-seb 33
+Kuba 22 2022
+Sebek 99 2000
