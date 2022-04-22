@@ -9,19 +9,22 @@ class Main {
       Scanner scanner=new Scanner(System.in);
       int opcja=scanner.nextInt();
       String imie=scanner.nextLine();
+      String nazwisko;
       int wiek;
       String data;
       switch(opcja){
         case 1:
           System.out.println("Wpisz imie:");
           imie=scanner.nextLine();
+          System.out.println("Wpisz nazwisko:");
+          nazwisko=scanner.nextLine();
           System.out.println("Wpisz wiek:");
           wiek=scanner.nextInt();
            System.out.println("Wpisz rok:");
           scanner.nextLine();
           data=scanner.nextLine();
           System.out.println("Dodano studenta");
-          metoda.addStudent(new Student(imie,wiek,data));
+          metoda.addStudent(new Student(imie,nazwisko,wiek,data));
           break;
         case 2:
           var students=service.getStudents();
